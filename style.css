@@ -211,3 +211,39 @@ ol.pubs li::before{content:"[" counter(p) "]";position:absolute;left:10px;top:12
   .gallery{columns:2 150px;column-gap:10px}
   .gallery figure{margin-bottom:10px}
 }
+
+/* featured strip */
+.featured{display:flex;flex-wrap:wrap;align-items:center;gap:8px 26px;margin:18px 4px 0;font:600 17px var(--serif);color:var(--muted)}
+.featured span{font:600 11.5px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#9aa1a8}
+.featured a{color:#5b6268;letter-spacing:.01em}
+.featured a:hover{color:var(--accent);text-decoration:none}
+.featured a:last-child{font:500 13px var(--sans);color:var(--accent)}
+
+/* probiotic pipeline */
+.pipe{display:grid;grid-template-columns:320px 1fr;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:18px;overflow:hidden;box-shadow:var(--shadow);margin-bottom:38px}
+.pipe-fig{background:#f3f8f6;display:flex;flex-direction:column;border-right:1px solid var(--line)}
+.pipe-fig img{width:100%;display:block}
+.pipe-fig img.ph{flex:1;object-fit:cover;min-height:200px;border-top:1px solid var(--line)}
+.stages{list-style:none;margin:0;padding:18px 22px;display:grid;grid-template-columns:1fr;gap:0}
+.stages li{display:grid;grid-template-columns:112px 1fr;column-gap:14px;padding:10px 0;border-bottom:1px dashed var(--line)}
+.stages li:last-child{border-bottom:0}
+.stages .k{grid-row:span 3;font:600 11.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);padding-top:3px}
+.stages b{font:600 16px var(--serif)}
+.stages p{margin:2px 0 3px;font-size:14.3px;line-height:1.55}
+.stages .lk{grid-column:2;font-size:13px}
+.cards.two-up{grid-template-columns:repeat(2,1fr)}
+
+/* media quotes */
+.media{grid-template-columns:1fr 1fr}
+.mcard q{display:block;margin-top:4px;padding:8px 12px;background:#faf6f0;border-radius:8px;font:400 14.5px/1.6 "Noto Serif SC","Songti SC",serif;color:#4a4440;quotes:"“" "”"}
+.mcard mark{background:linear-gradient(transparent 55%,#f3d8a8 55%);color:var(--ink);font-weight:600;padding:0 1px}
+
+/* beyond */
+.beyond{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.beyond>div{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px 20px;box-shadow:var(--shadow)}
+.beyond b{font:600 17px var(--serif)}
+.beyond ul{margin:8px 0 0;padding-left:18px}
+.beyond li{font-size:14.3px;margin-bottom:7px}
+.beyond li::marker{color:var(--clay)}
+@media (max-width:900px){.pipe{grid-template-columns:1fr}.pipe-fig{border-right:0;border-bottom:1px solid var(--line)}.beyond{grid-template-columns:1fr}}
+@media (max-width:640px){.cards.two-up{grid-template-columns:1fr}.stages li{grid-template-columns:1fr}.stages .k{grid-row:auto}.featured{font-size:15px;gap:6px 16px}}
