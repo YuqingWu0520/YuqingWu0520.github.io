@@ -85,6 +85,70 @@
   </div>
 </section>
 
+<section id="expertise">
+  <h2>Expertise: from bench to population</h2>
+  <p class="intro">Few early-career researchers have run the whole chain themselves. I have worked at every step, from isolating microbes and running mouse trials to analysing half a million people, so I can design a study that connects mechanism with population evidence.</p>
+  <ol class="chain">
+    <li class="step">
+      <div class="ph"><img src="assets/img/lab-invitro.jpg" alt="Working in a biosafety cabinet" loading="lazy"><span class="n">01</span></div>
+      <div class="tx"><h4>In vitro &amp; microbiology</h4>
+      <ul>
+        <li>Isolated and identified 348 lactic acid bacteria from traditional fermented foods; screened probiotic and acid-tolerant strains</li>
+        <li>Fermentation design with HPLC organic-acid profiling, rheology and FTIR</li>
+        <li>Built a GC-MS method and SOP for short-chain fatty acids</li>
+      </ul></div>
+    </li>
+    <li class="step">
+      <div class="ph"><img src="assets/img/lab-invivo.jpg" alt="Mouse husbandry in an animal facility" loading="lazy"><span class="n">02</span></div>
+      <div class="tx"><h4>In vivo models</h4>
+      <ul>
+        <li>Four-month high-fat-diet obesity model and two DSS-colitis trials, one head to head against sulfasalazine; zebrafish validation (360 larvae)</li>
+        <li>Randomised allocation, blinded scoring, power-based group sizes</li>
+        <li>Memory tests (Y-maze, Morris water maze, novel object), histology, immunofluorescence, ELISA, MPO</li>
+      </ul></div>
+    </li>
+    <li class="step">
+      <div class="ph"><img src="assets/img/lab-analytics.jpg" alt="At an LC instrument" loading="lazy"><span class="n">03</span></div>
+      <div class="tx"><h4>Multi-omics</h4>
+      <ul>
+        <li>Shotgun metagenomics and genome-resolved assembly (382 MAGs), 16S, comparative genomics of 47 strains</li>
+        <li>Colon RNA-seq, serum lipidomics (LC-MS/MS) and hippocampal proteomics, integrated in R</li>
+        <li>Plasma proteomics on two platforms: Olink (2,920 proteins) and SomaScan</li>
+      </ul></div>
+    </li>
+    <li class="step">
+      <div class="ph"><img src="assets/fig/ihps.svg" alt="Cohort analysis illustration" loading="lazy" class="contain"><span class="n">04</span></div>
+      <div class="tx"><h4>Population cohorts</h4>
+      <ul>
+        <li>UK Biobank (500,000 people), EPIC (ten European countries), REACT and Airwave, all inside trusted research environments</li>
+        <li>Survival analysis, case-crossover design and mediation analysis</li>
+        <li>Linked environmental exposure (daily temperature) to health records</li>
+      </ul></div>
+    </li>
+    <li class="step">
+      <div class="ph code"><pre><span class="c"># healthspan score</span>
+fit &lt;- cv.glmnet(
+  X, Surv(time, event),
+  family = "cox",
+  nfolds = 10)
+<span class="c"># 1,000 bootstraps</span>
+<span class="c"># external validation</span></pre><span class="n">05</span></div>
+      <div class="tx"><h4>Statistics &amp; machine learning</h4>
+      <ul>
+        <li>LASSO-penalised Cox models with stratified cross-validation and a pre-specified 83-model comparison</li>
+        <li>Stability selection, bootstrap confidence intervals, calibration and external validation without data leakage</li>
+        <li>Trained in random forests, gradient boosting, SHAP and neural networks (Imperial, 2026)</li>
+      </ul></div>
+    </li>
+  </ol>
+  <div class="bring">
+    <div><b>Mechanism meets population</b><span>Years of bench work before moving to cohorts: I read a protein signal with the biology in mind.</span></div>
+    <div><b>Results that travel</b><span>One score tested across four cohorts, ten European countries and two proteomic platforms.</span></div>
+    <div><b>Independent</b><span>Student PI on two funded grants, two invention patents, a strain in industrial use.</span></div>
+    <div><b>Communicator</b><span>Oral talks in English and Chinese, national competition finals, peer reviewer for three journals.</span></div>
+  </div>
+</section>
+
 <section id="news">
   <h2>News</h2>
   <ul class="news">
@@ -200,16 +264,20 @@
 <section id="honours">
   <h2>Honours and awards</h2>
   <ul class="honours">
-    <li><span class="yr">2025</span><div><b>State-Sponsored Joint PhD Scholarship</b>, China Scholarship Council<p>National competition, two places in the school. Funds the joint PhD at Imperial College London.</p></div><span class="lvl nat">National</span></li>
-    <li><span class="yr">2025</span><div><b>Young Talent Support Programme, doctoral track</b>, China Association for Science and Technology<p>National programme for young scientists, nominated through the Chinese Neuroscience Society; two places in the school.</p></div><span class="lvl nat">National</span></li>
-    <li><span class="yr">2025</span><div><b>Visiting doctoral offers from Caltech and the University of Oxford</b><p>Invited by Prof Margaret McFall-Ngai (Caltech; member, US National Academy of Sciences) and Prof Holm Uhlig (University of Oxford).</p></div><span class="lvl intl">International</span></li>
-    <li><span class="yr">2023</span><div><b>Student of the Year</b>, Hainan University<p>One of 12 students university-wide, chosen through nomination, review and a public defence. <a href="https://hain.chinadaily.com.cn/a/202306/20/WS649139f6a310ba94c5612aca.html">China Daily report →</a></p></div><span class="lvl uni">University</span></li>
-    <li><span class="yr">2023</span><div><b>Outstanding Master&rsquo;s Thesis</b> and <b>Outstanding Graduate</b>, Hainan University<p>Ranked 1st of 35; speaker for the graduating master&rsquo;s students at the 2023 ceremony.</p></div><span class="lvl uni">University</span></li>
-    <li><span class="yr">2021</span><div><b>Third place, national final</b>, CIFST Probiotics Science Communication Competition<p>Chinese Institute of Food Science and Technology, 2021 Food Innovation Contest; team of five.</p></div><span class="lvl nat">National</span></li>
-    <li><span class="yr">2020</span><div><b>Second prize, national final</b>, English Vocabulary Contest, National College Innovative English Challenge<p>Non-English-major division.</p></div><span class="lvl nat">National</span></li>
-    <li><span class="yr">2024&ndash;26</span><div><b>Student principal investigator</b>, Jiangsu Postgraduate Research and Practice Innovation Programme (KYCX24_2613)<p><i>Bifidobacterium adolescentis</i> in type 1 diabetes. Earlier: Hainan Postgraduate Innovation Research Project (Hys2020-199), 2020.</p></div><span class="lvl prov">Provincial</span></li>
-    <li><span class="yr">2023&ndash;25</span><div><b>Top 5% in the doctoral evaluation</b>, Jiangnan University<p>9th of 183 doctoral students in the second year (18th in the first).</p></div><span class="lvl uni">University</span></li>
-    <li><span class="yr">2020&ndash;26</span><div><b>First-Class Academic Scholarship</b>, every year at Hainan University and Jiangnan University</div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2025</span><div><b>State-Sponsored Joint PhD Scholarship</b> · China Scholarship Council<p>Highly competitive national scholarship (two places in the school) that funds my joint PhD at Imperial College London, ranked 2nd in the world (QS 2026).</p></div><span class="lvl nat">National</span></li>
+    <li><span class="yr">2025</span><div><b>Young Talent Support Programme, doctoral track</b> · China Association for Science and Technology<p>China&rsquo;s national programme for promising young scientists; nominated by the Chinese Neuroscience Society (two places in the school).</p></div><span class="lvl nat">National</span></li>
+    <li><span class="yr">2025</span><div><b>Visiting doctoral offers from Caltech and the University of Oxford</b><p>Invited by Prof Margaret McFall-Ngai (Caltech; member of the US National Academy of Sciences) and Prof Holm Uhlig (University of Oxford).</p></div><span class="lvl intl">International</span></li>
+    <li><span class="yr">2025</span><div><b>Oral Presenter Recognition</b> · 6th International Electronic Conference on Foods (MDPI <i>Foods</i>)<p>Certificate of recognition for a compelling and informative oral presentation.</p></div><span class="lvl intl">International</span></li>
+    <li><span class="yr">2023</span><div><b>Student of the Year</b> · Hainan University<p>One of 12 students university-wide, selected through nomination, college and university review and a public defence. <a href="https://hain.chinadaily.com.cn/a/202306/20/WS649139f6a310ba94c5612aca.html">Reported by China Daily →</a></p></div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2023</span><div><b>Outstanding Master&rsquo;s Thesis</b> · Hainan University<p>Probiotic lactic acid bacteria from traditional fermented foods and their protection against colitis.</p></div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2023</span><div><b>Outstanding Graduate</b> · Hainan University<p>Ranked 1st of 35 (GPA 4.0); chosen to speak for the graduating master&rsquo;s students at the 2023 ceremony.</p></div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2022</span><div><b>Outstanding Postgraduate</b> · Hainan University</div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2021</span><div><b>Third place, national final</b> · CIFST Probiotics Science Communication Competition<p>Chinese Institute of Food Science and Technology, 2021 Food Innovation Contest; team of five.</p></div><span class="lvl nat">National</span></li>
+    <li><span class="yr">2020</span><div><b>Second prize, national final</b> · English Vocabulary Contest, National College Innovative English Challenge<p>Non-English-major division.</p></div><span class="lvl nat">National</span></li>
+    <li><span class="yr">2024&ndash;26</span><div><b>Student principal investigator</b> · Jiangsu Postgraduate Research and Practice Innovation Programme (KYCX24_2613)<p>Competitive provincial grant, written and led independently: <i>Bifidobacterium adolescentis</i> in type 1 diabetes.</p></div><span class="lvl prov">Provincial</span></li>
+    <li><span class="yr">2020&ndash;23</span><div><b>Student principal investigator</b> · Hainan Postgraduate Innovation Research Project (Hys2020-199)<p>Microbial dynamics of fermented fish tea; led to two first-tier papers (<i>Food &amp; Function</i>, <i>Food Research International</i>).</p></div><span class="lvl prov">Provincial</span></li>
+    <li><span class="yr">2023&ndash;25</span><div><b>Top 5% in the doctoral evaluation</b> · Jiangnan University<p>9th of 183 doctoral students in the second year (18th, top 10%, in the first).</p></div><span class="lvl uni">University</span></li>
+    <li><span class="yr">2020&ndash;26</span><div><b>First-Class Academic Scholarship</b> · every year of the MSc and PhD</div><span class="lvl uni">University</span></li>
   </ul>
 </section>
 
@@ -251,7 +319,9 @@
       <h3 class="sub">Talks and conferences</h3>
       <ul class="plain">
         <li>Invited talk · Nanyang Technological University, Singapore, Dec 2026 <em class="up">upcoming</em></li>
-        <li>Oral · 6th International Electronic Conference on Foods, Oct 2025</li>
+        <li>Attended · 35th USENIX Security Symposium, Baltimore, USA, Aug 2026</li>
+        <li>Speaker · closing ceremony, CAST national programme for young scientists, Hangzhou, Aug 2026</li>
+        <li>Oral · 6th International Electronic Conference on Foods, Oct 2025 (oral presenter recognition)</li>
         <li>Oral · 7th CIFST Young Scientists Forum, Wuxi, Sep 2025</li>
         <li>Attended · FIFS &amp; ISNFF 2024 International Conference, Wuxi, Dec 2024</li>
         <li>Poster · 9th China Dairy Science and Technology Conference, Hohhot, 2021</li>
@@ -281,20 +351,22 @@
 <section id="moments">
   <h2>Moments</h2>
   <div class="gallery">
-    <figure><img src="assets/img/moment-student-of-the-year.jpg" alt="Student of the Year award ceremony" loading="lazy"><figcaption>Student of the Year ceremony, Hainan University, 2023</figcaption></figure>
-    <figure><img src="assets/img/moment-wuxi-2025.jpg" alt="At the CIFST Young Scientists Forum" loading="lazy"><figcaption>Oral talk, CIFST Young Scientists Forum, Wuxi, 2025</figcaption></figure>
-    <figure><img src="assets/img/moment-rotterdam.jpg" alt="At Erasmus MC" loading="lazy"><figcaption>ENDOMIX Olink workshop, Erasmus MC, Rotterdam, 2026</figcaption></figure>
-    <figure><img src="assets/img/moment-cast-talk.jpg" alt="Speaking at a national training programme" loading="lazy"><figcaption>National young-scientist programme, Hangzhou, 2026</figcaption></figure>
-    <figure><img src="assets/img/moment-fifs-2024.jpg" alt="At FIFS and ISNFF 2024" loading="lazy"><figcaption>FIFS &amp; ISNFF international conference, Wuxi, 2024</figcaption></figure>
-    <figure><img src="assets/img/moment-cifst-final.jpg" alt="Presenting at a national final" loading="lazy"><figcaption>National final, CIFST probiotics competition, 2021</figcaption></figure>
-    <figure><img src="assets/img/moment-graduation-speech.jpg" alt="Graduation speech" loading="lazy"><figcaption>Graduate speaker, Hainan University, 2023</figcaption></figure>
-    <figure><img src="assets/img/moment-lab.jpg" alt="Working in the lab" loading="lazy"><figcaption>At the bench, Jiangnan University</figcaption></figure>
+    <figure class="wide"><img src="assets/img/m-student-of-the-year.jpg" alt="Receiving the Student of the Year award" loading="lazy"><figcaption><b>Student of the Year</b> · Hainan University, 2023</figcaption></figure>
+    <figure><img src="assets/img/m-hangzhou-closing.jpg" alt="Speaking at a closing ceremony" loading="lazy"><figcaption><b>Speaking at the closing ceremony</b> · national programme for young scientists, Hangzhou, 2026</figcaption></figure>
+    <figure><img src="assets/img/m-usenix-poster.jpg" alt="At the USENIX Security Symposium" loading="lazy"><figcaption><b>USENIX Security Symposium</b> · Baltimore, USA, 2026</figcaption></figure>
+    <figure><img src="assets/img/m-rotterdam.jpg" alt="At Erasmus MC" loading="lazy"><figcaption><b>ENDOMIX Olink workshop</b> · Erasmus MC, Rotterdam, 2026</figcaption></figure>
+    <figure class="wide"><img src="assets/img/m-graduation-speech.jpg" alt="Giving the graduate speech" loading="lazy"><figcaption><b>Graduate speaker</b> · Hainan University commencement, 2023</figcaption></figure>
+    <figure><img src="assets/img/m-hangzhou-talk.jpg" alt="Speaking at a podium" loading="lazy"><figcaption><b>Talk</b> · national programme for young scientists, Hangzhou, 2026</figcaption></figure>
+    <figure><img src="assets/img/m-wuxi-2025.jpg" alt="At the CIFST Young Scientists Forum" loading="lazy"><figcaption><b>Oral talk</b> · CIFST Young Scientists Forum, Wuxi, 2025</figcaption></figure>
+    <figure class="wide"><img src="assets/img/m-cifst-final.jpg" alt="Presenting at a national final" loading="lazy"><figcaption><b>National final, third place</b> · CIFST probiotics competition, 2021</figcaption></figure>
+    <figure class="wide"><img src="assets/img/m-fifs-2024.jpg" alt="At the FIFS and ISNFF 2024 conference" loading="lazy"><figcaption><b>FIFS &amp; ISNFF 2024</b> · international conference, Wuxi</figcaption></figure>
+    <figure><img src="assets/img/m-usenix-hall.jpg" alt="In the USENIX conference hall" loading="lazy"><figcaption><b>Conference hall</b> · Baltimore, 2026</figcaption></figure>
   </div>
 </section>
 
 <section id="beyond">
   <h2>Beyond the lab</h2>
-  <p>Vice-president of the university art troupe at Henan University of Technology (2018&ndash;2019). Two first prizes at the national final of the 7th National Fitness Aerobics Competition and first place in the undergraduate division of the Henan Provincial Aerobics Championship (2018). Youth League branch secretary at Hainan University.</p>
+  <p>Vice-president of the university art troupe at Henan University of Technology (2018&ndash;2019). Two first prizes at the national final of the 7th National Fitness Aerobics Competition and first place in the undergraduate division of the Henan Provincial Aerobics Championship (2018). Youth League branch secretary at Hainan University. Latin dance performance at the Hainan University Shanghai Alumni Association gala, awarded Outstanding Programme (2024).</p>
 </section>
 
 <section id="contact" class="contact">
