@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 300" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fbf6ec"/><stop offset="1" stop-color="#f4efe4"/></linearGradient>
+<linearGradient id="crust" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9a35a"/><stop offset="1" stop-color="#a86b2c"/></linearGradient>
+</defs>
+<rect width="480" height="300" fill="url(#bg)"/>
+<!-- bread -->
+<g transform="translate(118,170)">
+<ellipse cx="0" cy="44" rx="92" ry="10" fill="#e6dccb"/>
+<path d="M-86,30 C-92,-24 -50,-58 0,-58 C50,-58 92,-24 86,30 C86,40 -86,40 -86,30z" fill="url(#crust)"/>
+<path d="M-48,-30 l20,18 M-14,-44 l20,18 M22,-40 l20,18" stroke="#f1d29a" stroke-width="5" stroke-linecap="round"/>
+<text y="78" text-anchor="middle" font-size="13" font-weight="600" fill="#5a4114">Sourdough bread</text>
+<text y="94" text-anchor="middle" font-size="11" fill="#6b6253">longer shelf life, no preservatives</text>
+</g>
+<!-- magnifier -->
+<g transform="translate(224,82)">
+<circle r="50" fill="#ffffff" stroke="#b8862f" stroke-width="3"/>
+<g><ellipse cx="-18" cy="-10" rx="13" ry="10" fill="#e9c98a" stroke="#b8862f"/><ellipse cx="-4" cy="-20" rx="7" ry="6" fill="#e9c98a" stroke="#b8862f"/>
+<ellipse cx="16" cy="12" rx="12" ry="9" fill="#e9c98a" stroke="#b8862f"/>
+<rect x="-26" y="14" width="22" height="8" rx="4" fill="#2f6f69"/><rect x="8" y="-26" width="20" height="8" rx="4" fill="#2f6f69" transform="rotate(25 18 -22)"/>
+<circle cx="-2" cy="30" r="5" fill="#a9584b"/><circle cx="28" cy="-6" r="5" fill="#a9584b"/></g>
+<path d="M-36,36 L-62,62" stroke="#b8862f" stroke-width="6" stroke-linecap="round"/>
+</g>
+<!-- pyramid -->
+<g transform="translate(372,62)">
+<text x="0" y="-12" text-anchor="middle" font-size="12" font-weight="600" fill="#3b3f45">Evidence grading</text>
+<path d="M0,0 L20,34 L-20,34z" fill="#2f6f69"/>
+<path d="M-22,38 L22,38 L40,70 L-40,70z" fill="#4f8b84"/>
+<path d="M-42,74 L42,74 L60,106 L-60,106z" fill="#8fbfb7"/>
+<path d="M-62,110 L62,110 L80,142 L-80,142z" fill="#e6c48b"/>
+<path d="M-82,146 L82,146 L100,178 L-100,178z" fill="#efb3a7"/>
+<g font-size="10.5" fill="#ffffff" text-anchor="middle" font-weight="600"><text y="30">5</text><text y="58">4</text></g>
+<g font-size="10.5" fill="#3b3f45" text-anchor="middle"><text y="94">perturbation</text><text y="130">intervention</text><text y="166">correlative omics</text></g>
+<text x="0" y="204" text-anchor="middle" font-size="11" fill="#6b6253">three first-author critical reviews</text>
+</g>
+</svg>
