@@ -352,3 +352,15 @@ h2{font-size:34px}
   nav{-webkit-mask-image:linear-gradient(90deg,#000 80%,transparent);mask-image:linear-gradient(90deg,#000 80%,transparent)}
   .tile:not(:nth-child(3n+1)){border-left:0}.tile:nth-child(-n+3){border-top:1px solid var(--line)}.tile:first-child{border-top:0}
 }
+
+/* study at a glance */
+.glance{margin:-14px 0 40px;background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);padding:18px 22px}
+.gl-t{margin:0 0 12px;font:600 16px var(--serif);color:var(--ink)}
+.gl-t span{display:block;font:400 13px var(--sans);color:var(--muted);margin-top:2px}
+.glance dl{margin:0;display:grid;grid-template-columns:repeat(6,1fr);gap:0}
+.glance dl>div{padding:4px 14px;border-left:1px solid var(--line)}
+.glance dl>div:first-child{border-left:0;padding-left:0}
+.glance dt{font:600 11.5px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--accent);margin-bottom:4px}
+.glance dd{margin:0;font-size:13.8px;line-height:1.45;color:var(--ink)}
+@media (max-width:900px){.glance dl{grid-template-columns:repeat(3,1fr);row-gap:12px}.glance dl>div:nth-child(4){border-left:0;padding-left:0}}
+@media (max-width:560px){.glance dl{grid-template-columns:1fr 1fr}.glance dl>div{border-left:0;padding-left:0}}
