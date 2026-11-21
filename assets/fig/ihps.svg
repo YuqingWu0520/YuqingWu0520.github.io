@@ -90,7 +90,7 @@
 <circle cx="-7.9" cy="-1.3" r="5" fill="#2f6f69" opacity="1"/>
 <circle cx="1.3" cy="-7.9" r="5.6" fill="#2f6f69" opacity="0.75"/>
 </g>
-<text x="0" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#24433f">inflammation proteins</text>
+<text x="0" y="98" text-anchor="middle" font-size="13" font-weight="600" fill="#24433f">69 inflammation proteins</text>
 <text x="0" y="115" text-anchor="middle" font-size="11.5" fill="#5d6b69">one healthspan score</text>
 </g>
 <!-- cohorts -->
