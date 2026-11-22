@@ -383,7 +383,7 @@ h2{font-size:34px}
 .steps5 figure{margin:0 0 9px}
 .steps5 .pair{display:grid;grid-template-columns:1fr 1fr;gap:4px;border-radius:8px;overflow:hidden}
 .steps5 img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;display:block;background:#ece9e2}
-.steps5 figcaption{font-size:11px;color:var(--muted);margin-top:4px;font-style:italic}
+.steps5 figcaption{font-size:11px;color:var(--muted);margin-top:4px;font-style:italic;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .steps5 .res{font-size:12.8px;font-weight:600;color:#24544f;background:#eef5f3;border-left:3px solid #2f6f69;padding:5px 8px;border-radius:0 6px 6px 0;line-height:1.4}
 .steps5 .lk{display:flex;flex-direction:column;gap:2px}
 .steps5 .k{font-size:11px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;color:#a9584b}
